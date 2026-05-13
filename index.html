@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Live Browser Viewer</title>
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; background: #1e1e1e; }
+        .status { background: #111; color: #0f0; padding: 10px; text-align: center; font-family: monospace; }
+        .status a { color: #0ff; }
+        iframe { width: 100%; height: calc(100% - 50px); border: none; }
+    </style>
+</head>
+<body>
+    <div class="status">
+        🟢 LIVE REMOTE BROWSER | 
+        Ngrok URL: <a href="https://abc123.ngrok.io" target="_blank">https://abc123.ngrok.io</a>
+    </div>
+    <iframe src="https://abc123.ngrok.io"></iframe>
+</body>
+</html>
